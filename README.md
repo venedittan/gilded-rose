@@ -1,6 +1,6 @@
-Projet Architecture Logicielle
+#Projet Architecture Logicielle
 
-badge build : 
+badge build : [![Build Status](https://travis-ci.org/ryhita/gilded-rose.svg?branch=master)](https://travis-ci.org/ryhita/gilded-rose)
 
-https://travis-ci.org/ryhita/gilded-rose.svg?branch=master
+
 
