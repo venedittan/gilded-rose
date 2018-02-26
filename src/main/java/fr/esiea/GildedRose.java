@@ -1,4 +1,4 @@
-package fr.esiea;
+
 
 class GildedRose {
     Item[] items;
