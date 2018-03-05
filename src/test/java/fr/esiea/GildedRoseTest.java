@@ -14,11 +14,4 @@ public class GildedRoseTest {
         assertEquals("fixme", app.items[0].name);
     }
 
-    @Test
-    public void item_degrade() {
-    	item = new Item("Test", 10,10);
-    	item.updateQuality;
-    	assertEquals(9,item.quality);
-    }
-
 }
