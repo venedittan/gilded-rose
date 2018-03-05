@@ -7,8 +7,10 @@ import org.junit.Test;
 public class GildedRoseTest {
 
     @Test
-    public void foo() {
-       
+    public void updateQualityTest() {
+		Item item = new Item("Item Test",10,10);
+		item.updateQuality();
+		assertEquals(9, item.getQuality());
     }
 
 }
