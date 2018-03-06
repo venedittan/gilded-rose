@@ -31,8 +31,8 @@ public class ItemTest {
      	for(int i=0;i<5;i++)
      		items[i].updateQuality();
      	assertEquals(12, items[0].quality);
-    	assertEquals(21, items[1].quality);
-   		assertEquals(11, items[2].quality);
+    	assertEquals(22, items[1].quality);
+   		assertEquals(12, items[2].quality);
     	assertEquals(0, items[3].quality);
     	assertEquals(0, items[4].quality);
     }
