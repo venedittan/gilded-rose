@@ -2,9 +2,9 @@ package fr.esiea;
 
 public class Item {
 
-    protected String name;
-    protected int sellIn;
-    protected int quality;
+    public String name;
+    public int sellIn;
+    public int quality;
     public static final int SELLIN_IS_OVER = 0;
     public static final int MAX_QUALITY = 50;
 
