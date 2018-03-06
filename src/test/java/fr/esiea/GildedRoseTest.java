@@ -15,4 +15,5 @@ public class GildedRoseTest {
 		assertEquals(9, item.getQuality());
     }
 
+    
 }
