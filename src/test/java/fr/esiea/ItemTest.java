@@ -28,7 +28,7 @@ public class ItemTest {
     		new BackstagePassesItem("Backstage passes to a TAFKAL80ETC concert",5,10),
      		new BackstagePassesItem("Backstage passes to a TAFKAL80ETC concert",-2,5),
      		new ConjuredItem("Conjured",-4,2)};
-     	for(i=0;i<5;i++)
+     	for(int i=0;i<5;i++)
      		items[i].updateQuality();
      	assertEquals(12, items[0].quality);
     	assertEquals(21, items[1].quality);
