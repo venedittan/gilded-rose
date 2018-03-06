@@ -2,7 +2,7 @@ package fr.esiea;
 
 public class ConjuredItem extends Item {
 
-	public ConjuredItem(String name, int sellIn, int quality) {
+	public ConjuredItem(int sellIn, int quality) {
 		super(sellIn, quality);
 		this.name = "Conjured";
 	}
