@@ -5,8 +5,7 @@ import java.lang.String;
 public class AgedBrieItem extends Item {
 
 	public AgedBrieItem(String name, int sellIn, int quality) {
-		super(sellIn, quality);
-		this.name = "Aged Brie";
+		super(name, sellIn, quality);
 	}
 
 	public void updateQuality() {
