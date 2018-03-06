@@ -11,8 +11,7 @@ public class GildedRoseTest {
 		Item item = new Item("Item Test",10,10);
 		Item[] items= new Item[] {item};
 		GildedRose gildedRose = new GildedRose(items);
-		gildedRose.updateQuality();
-		assertEquals(9, item.getQuality());
+		gildedRose.updateQuality
     }
 
     
