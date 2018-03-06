@@ -5,8 +5,7 @@ import java.lang.String;
 public class BackstagePassesItem extends Item {
 
 	public BackstagePassesItem(String name, int sellIn, int quality) {
-		super(sellIn, quality);
-		this.name = "Backstage passes to a TAFKAL80ETC concert";
+		super(name, sellIn, quality);
 	}
 
 	public void updateQuality() {
