@@ -14,12 +14,12 @@ public class ItemTest {
 	}
 
 	@Test
-  	public void updateAgedBrieTest(){
+  	public void updateQualityAgedBrieTest(){
     	Item item = new Item("Aged Brie",-2,10);
-    	item.updateItem();
+    	item.updateQuality();
     	assertEquals(12, item.quality);
   }
-  
+
 }
     
 }
