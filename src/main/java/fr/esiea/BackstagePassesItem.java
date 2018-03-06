@@ -2,7 +2,7 @@ package fr.esiea;
 
 public class BackstagePassesItem extends Item {
 
-	public BackstagePassesItem(int sellIn, int quality) {
+	public BackstagePassesItem(String name, int sellIn, int quality) {
 		super(sellIn, quality);
 		this.name = "Backstage passes to a TAFKAL80ETC concert";
 	}
