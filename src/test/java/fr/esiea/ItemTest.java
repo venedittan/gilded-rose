@@ -18,8 +18,6 @@ public class ItemTest {
     	Item item = new Item("Aged Brie",-2,10);
     	item.updateQuality();
     	assertEquals(12, item.quality);
-  }
-
-}
+  	}
     
 }
