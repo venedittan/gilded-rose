@@ -1,5 +1,7 @@
 package fr.esiea;
 
+import java.lang.String;
+
 public class ConjuredItem extends Item {
 
 	public ConjuredItem(String name, int sellIn, int quality) {

@@ -1,5 +1,7 @@
 package fr.esiea;
 
+import java.lang.String;
+
 public class AgedBrieItem extends Item {
 
 	public AgedBrieItem(String name, int sellIn, int quality) {

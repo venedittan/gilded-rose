@@ -1,5 +1,7 @@
 package fr.esiea;
 
+import java.lang.String;
+
 public class Item {
 
     public String name;
