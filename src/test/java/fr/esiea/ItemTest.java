@@ -12,5 +12,14 @@ public class ItemTest {
 		item.updateSellIn();
 		assertEquals(9,item.sellIn);
 	}
+
+	@Test
+  	public void updateAgedBrieTest(){
+    	Item item = new Item("Aged Brie",-2,10);
+    	item.updateItem();
+    	assertEquals(12, item.quality);
+  }
+  
+}
     
 }
