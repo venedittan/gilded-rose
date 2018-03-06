@@ -1,4 +1,4 @@
-ackage fr.esiea;
+package fr.esiea;
 
 public class BackstagePassesItem extends Item {
 
@@ -7,11 +7,11 @@ public class BackstagePassesItem extends Item {
 		super(sellIn, quality);
 	}
 
-	public void updateQuality(){
+	public void updateQuality() {
 		if(this.quality < MAX_QUALITY)
 			quality ++;
 
-		if(this.sellIn < 11){
+		if(this.sellIn < 11) {
 			if(this.quality < MAX_QUALITY)
 				quality ++;
 		}
