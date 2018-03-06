@@ -5,8 +5,7 @@ import java.lang.String;
 public class ConjuredItem extends Item {
 
 	public ConjuredItem(String name, int sellIn, int quality) {
-		super(sellIn, quality);
-		this.name = "Conjured";
+		super(name,sellIn, quality);
 	}
 
 	public void updateQuality() {
