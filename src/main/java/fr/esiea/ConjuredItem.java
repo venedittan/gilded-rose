@@ -3,7 +3,7 @@ package fr.esiea;
 public class ConjuredItem extends Item {
 
 	public ConjuredItem(String name, int sellIn, int quality) {
-		super(sellIn, quality);
+		super(int sellIn, int quality);
 		this.name = "Conjured";
 	}
 
